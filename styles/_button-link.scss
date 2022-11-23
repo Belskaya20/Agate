@@ -1,0 +1,20 @@
+.button-link:hover {
+    background-color: #FFA60D;
+}
+
+.button-link--white {
+    @include button-styles ($text-color);
+}
+
+.button-link--black {
+    @include button-styles (#000);
+}
+
+@media screen and (max-width: 1024px) {
+    .button-link {
+        width: 248px;
+        height: 48px;
+        line-height: 48px;
+        font-weight: 1.0625rem;
+    }
+}

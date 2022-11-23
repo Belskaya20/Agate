@@ -1,0 +1,29 @@
+.menu-agate-image {
+    &__item-picture {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-agate-image {
+        &__item-picture {
+            img {
+                max-width: 320px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .menu-agate-image {
+        &__item-picture {
+            img {
+                max-width: 300px;
+            }
+        }
+    }
+}

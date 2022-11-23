@@ -1,0 +1,21 @@
+.caption {
+    @include caption-styles;
+}
+
+@media screen and (max-width: 1024px) {
+    .caption {
+        font-size: 2.1875rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .caption {
+        font-size: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .caption {
+        font-size: 1.5625rem;
+    }
+}

@@ -1,0 +1,48 @@
+.contacts {
+    background-color: #262626;
+    padding: 100px 0px;
+    color: $text-color;
+    &__name {
+        font-size: 4.0625rem;
+    }
+    &__text {
+        font-size: $description-font;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts {
+        padding: 80px 0px 78px;
+        &__name {
+            font-size: 3.125rem;
+        }
+        &__text {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        padding: 70px 0px 65px;
+        &__name {
+            font-size: 2.5rem;
+        }
+        &__text {
+            font-size: 1.125rem;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contacts {
+        padding: 60px 0px;
+        &__name {
+            font-size: 2.1875rem;
+        }
+        &__text {
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.banner {
+    padding: 218px 0px 185px;
+    background-color: rgba(0, 0, 0, 0.48);
+    &__name {
+        margin: 0 auto;
+        font-size: 5.3125rem;
+        max-width: 914px;
+    }
+    &__text {
+        margin: 35px 0px 60px;
+        font-size: $description-font;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding: 183px 0px 153px;
+        &__name {
+            font-size: 3.75rem;
+            max-width: 697px;
+        }
+        &__text {
+            margin-bottom: 63px;
+            font-size: 1.125rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 171px 0px 99px;
+        &__name {
+            font-size: 3.125rem;
+            max-width: 329px;
+        }
+        &__text {
+            margin-bottom: 66px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.arrow {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #FFAC1C;
+    bottom: 19px;
+    right: 19px;
+    line-height: 70px;
+    color: $text-color;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .arrow {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .arrow {
+        width: 55px;
+        height: 55px;
+        right: 40px;
+        line-height: 60px;
+    }
+}

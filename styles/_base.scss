@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: $base-font;
+}
+
+body {
+    font-family: $family-font, serif;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-size: 0;
+    /*обертка*/
+}
+
+@media screen and (max-width: 1176px) {
+    .wrapper {
+        padding: 0 50px;
+    }
+}
